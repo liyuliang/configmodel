@@ -19,8 +19,8 @@ proxy=""
 [action.before.replace]
 target="url"
 from="www\\.gufengmh8"
-to="m\\.gufengmh8"
-
+#to="m.gufengmh8"
+#
 [action.after]
 [action.after.transform]
 target="html"
@@ -45,16 +45,6 @@ value=""
 key="code"
 type="regex\\.get"
 value="://\\w+.(\\w+).\\w+"
-
-[action.after]
-[action.after.transform]
-target="html"
-from="gbk"
-to="utf8"
-[action.after.replace]
-target="html"
-from="<img{^>}+src=\"({^\"}+)\"{^>}+data-original=\"({^\"}+)\">"
-to="<img src=\"$1\" data-original=\"$2\">"
 
 [[action]]
 return=""

@@ -1,52 +1,52 @@
 package configmodel
 
 
-type target struct {
+type Target struct {
 	Key   string
 	Type  string
 	Value string
 }
 
-type operation struct {
+type Operation struct {
 	Key   string
 	Type  string
 	Value string
 }
 
-type option struct {
+type Option struct {
 	Cookie string
 	Proxy  string
 }
-type replace struct {
+type Replace struct {
 	Target string
 	From   string
 	To     string
 }
 
-type transform struct {
+type Transform struct {
 	Target string
 	From   string
 	To     string
 }
 
-type after struct {
-	Transform transform
-	Replace   replace
+type After struct {
+	Transform Transform
+	Replace   Replace
 }
 
-type before struct {
-	Option  option
-	Replace replace
+type Before struct {
+	Option  Option
+	Replace Replace
 }
 
-type action struct {
-	Target    target
-	Operation operation
-	Before    before
-	After     after
+type Action struct {
+	Target    Target
+	Operation Operation
+	Before    Before
+	After     After
 	Return    string
 }
 
 type Actions struct {
-	Action []action
+	Action []Action
 }
