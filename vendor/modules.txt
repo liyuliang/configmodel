@@ -1,0 +1,27 @@
+# github.com/BurntSushi/toml v0.3.1
+github.com/BurntSushi/toml
+# github.com/PuerkitoBio/goquery v1.5.0
+github.com/PuerkitoBio/goquery
+# github.com/andybalholm/cascadia v1.0.0
+github.com/andybalholm/cascadia
+# github.com/astaxie/beego v1.12.0
+github.com/astaxie/beego/logs
+# github.com/imroc/req v0.2.4
+github.com/imroc/req
+# github.com/liyuliang/dom-parser v0.0.0-20171020101219-83d71ce6d1ec
+github.com/liyuliang/dom-parser
+# github.com/liyuliang/utils v0.0.0-20190805150857-cdeb9c4f8ad0
+github.com/liyuliang/utils/regex
+github.com/liyuliang/utils/request
+github.com/liyuliang/utils/format
+# github.com/shiena/ansicolor v0.0.0-20151119151921-a422bbe96644
+github.com/shiena/ansicolor
+# golang.org/x/net v0.0.0-20181114220301-adae6a3d119a
+golang.org/x/net/html
+golang.org/x/net/html/atom
+# golang.org/x/text v0.3.2
+golang.org/x/text/encoding/simplifiedchinese
+golang.org/x/text/transform
+golang.org/x/text/encoding
+golang.org/x/text/encoding/internal
+golang.org/x/text/encoding/internal/identifier

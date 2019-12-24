@@ -1,4 +1,4 @@
-module github.con/liyuliang/configmodel
+module github.com/liyuliang/configmodel
 
 go 1.12
 
