@@ -11,6 +11,10 @@ value="https://www.gufengmh8.com/manhua/woweicangsheng/1163707.html"
 key="html"
 type="download"
 value=""
+[action.operation.option]
+key=""
+type=""
+value=""
 
 [action.before]
 [action.before.http]
