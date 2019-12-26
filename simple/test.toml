@@ -13,7 +13,7 @@ type="download"
 value=""
 
 [action.before]
-[action.before.option]
+[action.before.http]
 cookie=""
 proxy=""
 [action.before.replace]
